@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    gap: 20px;
+    padding: 20px; /* Добавьте отступы */
+}
+
+label {
+    background-color: aliceblue;
+    color: black;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+}
+
+/* Общий контейнер для сообщений */
+.error-message,
+.success-message {
+    min-height: 20px;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Стиль для ошибки */
+.error-message {
+    color: red;
+}
+
+/* Стиль для успеха */
+.success-message {
+    color: green;
+}
+
+/* Границы для инпутов */
+.error-border {
+    border: 2px solid red;
+}
+
+.success-border {
+    border: 2px solid green;
+}
+
+.bottom{
+    margin-top: 1000px;
+}
+
+.lajax{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+#back{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    height: 500px;
+}
+
+    #stPLANE{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 250px;
+        background-color: blue;
+    }
+
+    #trstPLANE{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: aqua;
+    }
+
+    #bock{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+    }

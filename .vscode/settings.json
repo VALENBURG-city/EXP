@@ -1,0 +1,5 @@
+{
+    "comments.useRelativeTime": true,
+    "output.smartScroll.enabled": true,
+    "debug.javascript.autoAttachFilter": "smart"
+}
